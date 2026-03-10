@@ -1,0 +1,5 @@
+[phases.build]
+cmds = ["cd authsystem && ./mvnw clean package -DskipTests"]
+
+[start]
+cmd = "cd authsystem && java -jar target/*.jar"
